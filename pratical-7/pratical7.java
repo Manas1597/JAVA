@@ -6,7 +6,11 @@ class Practical7{
   int n=5;
   n+=3;
   for(int row=1;row<=n;row++){
+<<<<<<< HEAD
   System.out.println(obj.getM(row,n)+" "+obj.getA(row,n)+" "+obj.getN(row,n)+" "   +obj.getA(row,n)+ " "      +obj.getS(row,n));
+=======
+  System.out.println(obj.getM(row,n)+" "+obj.getA(row,n)+" "+obj.getN(row,n)+" "   +obj.getA(row,n)+ " "      +obj.getS(row,n)+" "
+>>>>>>> c30b832 (pratical-7)
   }
   }
 String getM( int row,int n)
@@ -39,7 +43,11 @@ String getM( int row,int n)
 
 
 
+<<<<<<< HEAD
 public static String getA( int row,int n)
+=======
+String getA( int row,int n)
+>>>>>>> c30b832 (pratical-7)
 {
         String A="";
         
@@ -92,7 +100,12 @@ String getN( int row,int n)
             
             }
             
+<<<<<<< HEAD
             String getA( int row,int n){
+=======
+            String getA( int row,int n)
+{
+>>>>>>> c30b832 (pratical-7)
         String A="";
         
       for(int column=1; column<=n; column++){ 
